@@ -2,6 +2,10 @@
 
 
 def print_list_integer(my_list=[]):
-    """Prints integers in a list"""
-    for i in my_list:
-        print("{:d}".format(i))
+    for n in my_list:
+        print('{:d}'.format(n))
+
+
+if __name__ == '__main__':
+    my_list = [2, 4, 6, 8]
+    print_list_integer(my_list)
